@@ -60,3 +60,20 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer utilities{
+  .square{
+    content: "";
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #eb8307;
+    box-shadow: 0px 0px 13px 0px rgba(235, 131, 7, .4);
+    transform: rotate(45deg);
+    border-radius: 10px;
+  }
+}

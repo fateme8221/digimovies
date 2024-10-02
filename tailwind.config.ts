@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'orange-normal':'#eb8307'
+        'orange-normal': '#eb8307',
+        'green-rating' : '#6c3'
       },
       container: {
         center: true,

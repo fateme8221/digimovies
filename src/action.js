@@ -1,6 +1,6 @@
 'use server'
-
-function getpost(id) {
-    fetch(`http://localhost:3000/post/${id}`)
-    .then(res=>res.json())
+async function getposts(id) {
+    let res = await fetch(`http://localhost:4000/posts/${id}`)
+    return await res.json()
 }
+   export default getposts

@@ -25,8 +25,8 @@ function Cover({cover}) {
             <span className="mt-5 text-sm text-[#8f8f8f] text-nowrap">مشاهده تریلر</span>
            
           </div>
-          <div class="PlayOnline mt-8">
-              <a title="پخش آنلاین" class="text-sm py-2.5 px-5 bg-orange-normal rounded-full"  href="#">
+          <div className="PlayOnline mt-8">
+              <a title="پخش آنلاین" className="text-sm py-2.5 px-5 bg-orange-normal rounded-full"  href="#">
                 پخش آنلاین
               </a>
           </div>

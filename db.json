@@ -1,34 +1,42 @@
 {
-   "posts": [
-    { 
-        "id": "1",
-        "title": "Blink Twice 2024",
-        "comments":178,
-        "quality":" 2160p 4K WEB-DL",
-         "Score": 6.6 ,
-         "time":103,
-         "director":" Zoë Kravitz",
-         "agegroup":"R",
-         "countrys":"آمریکا , مکزیک",
-         "auther":"Zoë Kravitz,E.T. Feigenbaum",
-         "actor":"Naomi Ackie,channing tatum,Alia Shawkat",
-         "description":"داستان یک میلیاردر در حیطه تکنولوژی به‌نام اسلیتر کینگ که در مراسم جذب سرمایه با پیشخدمتی به‌نام فریدا آشنا می‌شود. اسلیتر او و دوستان‌اش را به یک سفر رویایی در جزیره شخصی‌اش دعوت می‌کند اما شرایط مطابق انتظارات فریدا پیش نمی‌رود و...",
-         "rating":"3"
-        },
-    { 
-        "id": "2",
-        "title":"Deadpool & Wolverine 2024",
-        "comments":239,
-        "genres":"رازآلود , هیجان انگیز",
-        "quality":" 2160p 4K WEB-DL",
-        "Score": 7.9,
-        "time":128,
-         "director":"Shawn Levy",
-         "agegroup":"R",
-         "countrys":"آمریکا , استرالیا , کانادا , نیوزلند",
-         "auther":" Ryan Reynolds,Rhett Reese,Paul Wernick",
-         "actor":"ryan reynolds,hugh jackman,Emma Corrin",
-         "description":"پس از وقایع گذشته، نهاد مغایرت زمانی به وید ویلسون پیشنهاد می‌دهد تا به دنیای سینمایی مارول بپیوندد، اما او نسخه دیگری از ولورین را راضی به همکاری می‌کند تا دنیای در حال نابودی‌اش را نجات دهند.",
-         "rating":"4" }
-  ]
-}
+    "posts": [
+     { 
+         "id": "1",
+         "title": "Blink Twice 2024",
+         "comments":178,
+         "quality":" 2160p 4K WEB-DL",
+          "Score": 6.6 ,
+          "time":103,
+          "director":" Zoë Kravitz",
+          "agegroup":"R",
+          "countrys":"آمریکا , مکزیک",
+          "auther":"Zoë Kravitz,E.T. Feigenbaum",
+          "actor":"Naomi Ackie,channing tatum,Alia Shawkat",
+          "description":"داستان یک میلیاردر در حیطه تکنولوژی به‌نام اسلیتر کینگ که در مراسم جذب سرمایه با پیشخدمتی به‌نام فریدا آشنا می‌شود. اسلیتر او و دوستان‌اش را به یک سفر رویایی در جزیره شخصی‌اش دعوت می‌کند اما شرایط مطابق انتظارات فریدا پیش نمی‌رود و...",
+          "rating":3,
+          "criticsscore":66, 
+          "bg":"https://digimovie90.sbs/wp-content/uploads/2024/09/dTaqzXA1auKRUjHPQjR3u0W7Gfl.jpg",
+          "cover":"https://digimovie91.sbs/wp-content/uploads/2024/09/1njYxp9J6K3YT6wGC1YqJ5nb4j1.jpg",
+          "genres":"رازآلود , هیجان انگیز"
+         },
+     { 
+         "id": "2",
+         "title":"Deadpool & Wolverine 2024",
+         "comments":239,
+         "genres":"رازآلود , هیجان انگیز",
+         "quality":" 2160p 4K WEB-DL",
+         "Score": 7.9,
+         "time":128,
+          "director":"Shawn Levy",
+          "agegroup":"R",
+          "countrys":"آمریکا , استرالیا , کانادا , نیوزلند",
+          "auther":" Ryan Reynolds,Rhett Reese,Paul Wernick",
+          "actor":"ryan reynolds,hugh jackman,Emma Corrin",
+          "description":"پس از وقایع گذشته، نهاد مغایرت زمانی به وید ویلسون پیشنهاد می‌دهد تا به دنیای سینمایی مارول بپیوندد، اما او نسخه دیگری از ولورین را راضی به همکاری می‌کند تا دنیای در حال نابودی‌اش را نجات دهند.",
+          "rating":4,
+          "criticsscore":59,        
+           "bg":"https://digimovie91.sbs/wp-content/uploads/2024/07/A4JG9mkAjOQ3XNJy2oji1Jr224R-e1722246009830.jpg",
+          "cover":"https://digimovie91.sbs/wp-content/uploads/2024/07/A1WJykmhVG5bsVoLmX856ydeedmeJsn.jpg"
+         }
+   ]
+ }

@@ -7,6 +7,13 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+        'xs': '98%',
+        'sm': '98%',
+        'md': '880px',
+        'lg': '1024px',
+        'xl': '1170px',
+      },
     extend: {
       colors: {
         'orange-normal': '#eb8307',
@@ -19,13 +26,7 @@ const config: Config = {
           lg: '0.625rem'
         }
       },
-      screens: {
-        'xs': '480px',
-        'sm': '640px',
-        'md': '768px',
-        'lg': '1024px',
-        'xl': '1170px',
-      },
+      
       fontFamily: {
         "dana": "dana",
         "danaMedium": "dana Medium",

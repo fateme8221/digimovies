@@ -19,17 +19,15 @@ export default function Page({ params }) {
   },[])
   
   return (
-      <div dir="rtl" className="font-dana flex items-center justify-center h-screen">
-        
-        <div
-        className=" bg-cover bg-center bg-no-repeat h-[798px] w-full"
+      <div dir="rtl" className="font-dana flex items-center justify-center h-full mt-20">
+        <div className=" bg-cover bg-center bg-no-repeat md:h-[798px] w-full relative before:bg-blur"
         style={{
-          backgroundImage: `url(https://digimovie90.sbs/wp-content/uploads/2024/09/dTaqzXA1auKRUjHPQjR3u0W7Gfl.jpg)` 
+          backgroundImage: `url(${post?.bg})` 
         }}> 
-        <div className="w-full h-[798px] bg-gray-950 opacity-50 absolute"></div>
+        
         <div className="container relative">
-           <div className="flex w-full gap-2.5 z-50 pt-8 pb-48">
-              <Cover/>
+           <div className="flex flex-wrap w-full gap-2.5 z-50 pt-8 pb-48">
+              <Cover {...post}/>
               <Content {...post}/>
            </div>
         </div>

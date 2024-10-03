@@ -1,20 +1,11 @@
 import React from 'react'
 
-function HeadComponent({post}) {
+function HeadComponent({ post }) {
+ 
   return (
-    <div className="content_head  flex items-center justify-between">
-    <div className="content_haed_right w-[90%]">
-      <h1 className="font-danaDemiBold text-3xl">دانلود فیلم {post?.title}</h1>
-      <div className="comment_count flex items-center justify-start gap-2 mt-2">
-          <svg className='text-white h-4 w-4' fill='#fff' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.333 30.333" id="comment">
-            <path  d="M0 26.75V11.908c0-4.59 3.735-8.325 8.325-8.325h13.681c4.591 0 8.327 3.735 8.327 8.325v2.56c0 4.59-3.735 8.325-8.325 8.325H8.518L0 26.75zM8.325 5.439a6.476 6.476 0 00-6.469 6.469v11.933l6.253-2.905h13.899a6.476 6.476 0 006.469-6.469v-2.56a6.477 6.477 0 00-6.471-6.469H8.325v.001zm.612 6.328a1.765 1.765 0 110 3.53 1.765 1.765 0 010-3.53zm12.458 0a1.765 1.765 0 110 3.53 1.765 1.765 0 010-3.53zm-6.23 0a1.765 1.765 0 110 3.53 1.765 1.765 0 010-3.53z">
-            </path> </svg>
-        <span className='text-orange-normal'>{post?.comments}</span>
-        Comments
-      </div>
-    </div>
-      <div className="content_haed_left flex">
-        <div className='relative top-5 left-12 border border-gray-500 rounded-full w-[34px] h-[34px] text-center flex items-center justify-center' title="افزودن به علاقه مندی">
+    <div className="content_head grid  md:flex md:flex-row-reverse md:justify-between md:items-center">
+      <div className="content_haed_left -ml-8 flex flex-row-reverse">
+        <div className='relative top-4 left-36  border border-gray-500 rounded-full w-[34px] h-[34px] text-center flex items-center justify-center' title="افزودن به علاقه مندی">
             <svg xmlns="http://www.w3.org/2000/svg" fill='#fff' className='inline-block h-4 w-4' viewBox="0 0 511.999 511.999" id="heart">
             <path d="M469.715 72.39l.002.002-.003-.003z"></path>
             <path d="M469.794 72.469l-.077-.077c-56.34-56.367-148.035-56.387-204.403-.048l-.019.019-.025.025-9.242 9.243-9.243-9.243c-27.304-27.305-63.608-42.342-102.222-42.342-38.615 0-74.917 15.038-102.222 42.342C15.037 99.693 0 135.996 0 174.61c0 38.615 15.037 74.917 42.342 102.223l199.061 199.061a20.684 20.684 0 0029.253 0l199.056-199.057c56.352-56.328 56.385-147.993.082-204.368zM440.462 247.58L256.028 432.014 71.594 247.579c-19.49-19.491-30.224-45.404-30.224-72.969 0-27.563 10.734-53.478 30.224-72.968 20.118-20.118 46.544-30.176 72.969-30.176 26.426 0 52.852 10.058 72.969 30.176l23.87 23.869c8.078 8.078 21.174 8.078 29.252 0l23.87-23.869.005-.005.033-.033c40.22-40.202 105.639-40.202 145.857-.006l.08.081c40.214 40.234 40.2 105.682-.037 145.901z"></path>
@@ -24,7 +15,7 @@ function HeadComponent({post}) {
               <path d="M405.332 192H234.668V21.332C234.668 9.559 225.109 0 213.332 0 201.559 0 192 9.559 192 21.332V192H21.332C9.559 192 0 201.559 0 213.332c0 11.777 9.559 21.336 21.332 21.336H192v170.664c0 11.777 9.559 21.336 21.332 21.336 11.777 0 21.336-9.559 21.336-21.336V234.668h170.664c11.777 0 21.336-9.559 21.336-21.336 0-11.773-9.559-21.332-21.336-21.332zm0 0"></path>
             </svg>
             </span>
-          </div>
+        </div>
         <div className="imdb-content flex flex-col items-center justify-center">
         <div className="number text-center font-moraddaMeduim w-24">
           <strong className="text-orange-400 text-xl">{post.Score}</strong>
@@ -36,6 +27,18 @@ function HeadComponent({post}) {
           </svg>
         </div>
       </div>
+       <div className="content_haed_right ">
+      <h1 className=" text-2xl mt-5 sm:mt-0">دانلود فیلم {post?.title}</h1>
+      <div className="comment_count flex items-center justify-start gap-2 mt-2">
+          <svg className='text-white h-4 w-4' fill='#fff' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.333 30.333" id="comment">
+            <path  d="M0 26.75V11.908c0-4.59 3.735-8.325 8.325-8.325h13.681c4.591 0 8.327 3.735 8.327 8.325v2.56c0 4.59-3.735 8.325-8.325 8.325H8.518L0 26.75zM8.325 5.439a6.476 6.476 0 00-6.469 6.469v11.933l6.253-2.905h13.899a6.476 6.476 0 006.469-6.469v-2.56a6.477 6.477 0 00-6.471-6.469H8.325v.001zm.612 6.328a1.765 1.765 0 110 3.53 1.765 1.765 0 010-3.53zm12.458 0a1.765 1.765 0 110 3.53 1.765 1.765 0 010-3.53zm-6.23 0a1.765 1.765 0 110 3.53 1.765 1.765 0 010-3.53z">
+            </path> </svg>
+        <span className='text-orange-normal'>{post?.comments}</span>
+        Comments
+      </div>
+      </div>
+      
+      
 </div>
   )
 }
